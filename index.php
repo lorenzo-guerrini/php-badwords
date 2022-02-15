@@ -7,20 +7,21 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Badwords</title>
 </head>
-<body>
 
+<body>
     <p> <?php echo $paragraphCensored ?> </p>
     
     <div style="text-align: center">
         <div> <strong>Paragraph length:</strong> <?php echo strlen($paragraphCensored) ?> </div>
         <div> <strong>Censored word:</strong> <?php echo $wordToHide ?> </div>
     </div>
-
 </body>
+
 </html>
